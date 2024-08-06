@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-form assignment</title>
+    <style>
+        .body{
+            justify-content: center;
+            text-align: center;
+        }
+       
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+            margin-top: 50px;
+           background-color:rgb(99, 99, 226);
+           padding: 70px;
+           justify-content: center;
+           text-align: center;
+           width:700px;
+           margin-left: 200px;
+           height:400px;
+          
+
+          
+        }
+        .card{
+         padding: 20px;
+         background-color:blueviolet;
+        }
+        .card1{
+         
+            text-align: center;
+            justify-items:center;
+            background-color:aquamarine;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="card">
+            <div>
+                <img src="./assets/image1.jpeg" width="200px" height="300px">
+            </div>
+        </div>
+            <div class="card1">
+                <h2>Registration form</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+                    <label for ="birthday">Birthday:</label>
+                    <input type="date" id="Birthday" name="Birthday" placeholder ="enter your birthday"><br><br>
+                    <label for ="Gender">Gender</label>
+                    <select name="Gender" id="Gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                        <br><br>
+                    <label for ="Email">Email</label>
+                    <input type="text" id="Email" name="Email" placeholder="Enter your Email"><br><br>
+                    <label for = "name">Phone</label>
+                    <input type="number" id ="Phone" name="Phone" placeholder = "Enter your phone number"><br><br>
+                     <button>Submit</button>
+                </form>
+            </div>
+        
+    </div>
+</body>
+</html>
